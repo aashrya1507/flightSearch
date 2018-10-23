@@ -20,6 +20,7 @@ module.exports = {
             "error",
             "tab"
         ],
+        'no-console': 'off',
         "jsx-uses-vars": 1,
         "jsx-uses-react": 1,
         "linebreak-style": [

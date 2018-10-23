@@ -1,0 +1,19 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 4px 25px;
+}
+
+ul li:hover {
+  background: rgba(51,146,225,.12);
+  color: blueviolet;
+}
+
+.selectBoxContainer {
+  border: 1px solid #3c3d3c;
+  position: absolute;
+  color: #3c3d3c;
+}
