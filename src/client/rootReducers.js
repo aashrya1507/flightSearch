@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { getpopularCitiesReducer } from './container/popularCities';
+import { getpopularCitiesReducer } from './container/HomePage';
 
 
 const rootReducer = combineReducers({

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import HomePage from './component/HomePage';
+import HomePageContainer from './container/HomePage';
 import './app.css';
 
 export default class App extends Component {
@@ -9,10 +9,11 @@ export default class App extends Component {
 		this.state = { popularStates: []};
 	}
 
+	
 	render() {
 		return (
 			<div>
-				<HomePage />
+				<HomePageContainer />
 			</div>
 		);
 	}
